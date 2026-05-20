@@ -15,6 +15,8 @@ from .views import (
     ManufacturerUpdateView,
 )
 
+app_name = "taxi"
+
 urlpatterns = [
     path("", index, name="index"),
 
@@ -52,5 +54,3 @@ urlpatterns = [
         name="driver-detail",
     ),
 ]
-
-app_name = "taxi"
